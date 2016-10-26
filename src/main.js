@@ -6,7 +6,7 @@ Vue.use(VueSocketio, 'http://localhost:7777')
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<App v-bind:mymsg="mymsg" v-bind:packets="packets[0]"/>',
+  template: '<App v-bind:mymsg="mymsg" v-bind:packet="packets[0]"/>',
   components: { App },
   data () {
     return {

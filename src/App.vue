@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <stack v-bind:mymsg="mymsg" v-bind:packets="packets"></stack>
+    <stack v-bind:mymsg="mymsg" v-bind:packet="packet"></stack>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import Hello from './components/Hello'
 
 export default {
   name: 'app',
-  props: ['mymsg', 'packets'],
+  props: ['mymsg', 'packet'],
   components: {
     Stack,
     Hello
